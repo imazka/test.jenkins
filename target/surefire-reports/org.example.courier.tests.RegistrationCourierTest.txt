@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.example.courier.tests.RegistrationCourierTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.956 s <<< FAILURE! - in org.example.courier.tests.RegistrationCourierTest
+registerCourierWithExistingLoginTest  Time elapsed: 2.133 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Этот логин уже используется> but was: <Этот логин уже используется. Попробуйте другой.>
+	at org.example.courier.tests.RegistrationCourierTest.registerCourierWithExistingLoginTest(RegistrationCourierTest.java:53)
+
+registerCourierWithoutFirstNameTest  Time elapsed: 1.567 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <201>
+	at org.example.courier.tests.RegistrationCourierTest.registerCourierWithoutFirstNameTest(RegistrationCourierTest.java:90)
+
